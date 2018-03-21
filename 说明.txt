@@ -1,0 +1,13 @@
+测试页面 http://localhost/thinkphp_3.2.3_restful
+
+访问
+    http://locahost/user/1.json  读取用户(ID为1)的信息返回json类型
+    http://locahost/user/1.xml   读取用户(ID为1)的信息返回xml类型
+    http://locahost/user/1.html 读取用户(ID为1)的信息返回html类型
+
+多参数传递
+GET :  
+http://locahost/user/{"id":"108","info":{"name":"zz","sex":"female","age":"26"}}.json
+
+POST:
+直接用Form表单传递	
