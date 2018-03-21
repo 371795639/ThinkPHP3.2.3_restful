@@ -1,0 +1,84 @@
+[ 2018-03-21T10:51:18+08:00 ] ::1 /thinkphp_3.2.3_restful/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Index
+
+[ 2018-03-21T11:17:45+08:00 ] ::1 /thinkphp_3.2.3_restful/get/helloworld.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+ERR: 无法加载模块:Get
+
+[ 2018-03-21T11:20:21+08:00 ] ::1 /thinkphp_3.2.3_restful/get/helloworld.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Get
+
+[ 2018-03-21T11:20:29+08:00 ] ::1 /thinkphp_3.2.3_restful/get/helloworld.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 无法加载模块:Get
+
+[ 2018-03-21T11:58:17+08:00 ] ::1 /thinkphp_3.2.3_restful/index/get/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Index
+
+[ 2018-03-21T11:58:38+08:00 ] ::1 /thinkphp_3.2.3_restful/index/read/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+ERR: 无法加载模块:Index
+
+[ 2018-03-21T11:58:47+08:00 ] ::1 /thinkphp_3.2.3_restful/index/read/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:Index
+
+[ 2018-03-21T11:59:00+08:00 ] ::1 /thinkphp_3.2.3_restful/read/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Read
+
+[ 2018-03-21T11:59:37+08:00 ] ::1 /thinkphp_3.2.3_restful/blog/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载模块:Blog
+
+[ 2018-03-21T12:15:03+08:00 ] ::1 /thinkphp_3.2.3_restful/test/blog/1.put
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:Test
+
+[ 2018-03-21T12:16:35+08:00 ] ::1 /thinkphp_3.2.3_restful/get/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+ERR: 无法加载模块:Get
+
+[ 2018-03-21T12:37:27+08:00 ] ::1 /thinkphp_3.2.3_restful/blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Blog
+
+[ 2018-03-21T14:22:07+08:00 ] ::1 /thinkphp_3.2.3_restful/get/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002050s ]
+ERR: 无法加载模块:Get
+
+[ 2018-03-21T14:40:07+08:00 ] ::1 /thinkphp_3.2.3_restful/%7B%22id%22:%22108%22,%22info%22:%7B%22name%22:%22zz%22,%22sex%22:%22female%22,%22age%22:%2226%22%7D%7D.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+ERR: 无法加载模块:{"id":"108","info":{"name":"zz","sex":"female","age":"26"}}
+
