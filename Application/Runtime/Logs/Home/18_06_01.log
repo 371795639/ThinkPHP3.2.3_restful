@@ -2593,3 +2593,48 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
 NOTIC: [2048] Declaration of Home\Controller\UsersController::get() should be compatible with Think\Controller::get($name = '') /Applications/MAMP/htdocs/thinkphp_3.2.3_restful/Application/Home/Controller/UsersController.class.php 第 4 行.
 
+[ 2018-06-01T15:57:11+08:00 ] ::1 /thinkphp_3.2.3_restful/users/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002179s ]
+NOTIC: [2048] Declaration of Home\Controller\UsersController::get() should be compatible with Think\Controller::get($name = '') /Applications/MAMP/htdocs/thinkphp_3.2.3_restful/Application/Home/Controller/UsersController.class.php 第 4 行.
+
+[ 2018-06-01T15:57:13+08:00 ] ::1 /thinkphp_3.2.3_restful/users/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [2048] Declaration of Home\Controller\UsersController::get() should be compatible with Think\Controller::get($name = '') /Applications/MAMP/htdocs/thinkphp_3.2.3_restful/Application/Home/Controller/UsersController.class.php 第 4 行.
+
+[ 2018-06-01T15:57:15+08:00 ] ::1 /thinkphp_3.2.3_restful/users/?&method_type=get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2048] Declaration of Home\Controller\UsersController::get() should be compatible with Think\Controller::get($name = '') /Applications/MAMP/htdocs/thinkphp_3.2.3_restful/Application/Home/Controller/UsersController.class.php 第 4 行.
+
+[ 2018-06-01T15:57:16+08:00 ] ::1 /thinkphp_3.2.3_restful/users/1,2111,3,4,5,,,?&method_type=delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+NOTIC: [2048] Declaration of Home\Controller\UsersController::get() should be compatible with Think\Controller::get($name = '') /Applications/MAMP/htdocs/thinkphp_3.2.3_restful/Application/Home/Controller/UsersController.class.php 第 4 行.
+
+[ 2018-06-01T16:09:15+08:00 ] ::1 /thinkphp_3.2.3_restful/users/?&method_type=get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002260s ]
+NOTIC: [2048] Declaration of Home\Controller\UsersController::get() should be compatible with Think\Controller::get($name = '') /Applications/MAMP/htdocs/thinkphp_3.2.3_restful/Application/Home/Controller/UsersController.class.php 第 4 行.
+

@@ -4,7 +4,7 @@ return array(
     'URL_ROUTER_ON'   => true,
     'URL_ROUTE_RULES'=>array(
 
-        //  携带id参数
+        // 携带id参数
         array('users/:id','users/get_delete','',array('ext'=>'','method'=>'get')),//获取|删除指定用户
         array('users/:id','users/add_update','',array('ext'=>'','method'=>'post')),//新增|更新指定用户
 

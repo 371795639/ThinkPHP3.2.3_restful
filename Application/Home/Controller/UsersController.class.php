@@ -39,6 +39,7 @@ class UsersController extends RestController {
 
     /**
      * 列举用户
+     * $id是数组，需要foreach
      */
     public function get($id) {
 
@@ -54,6 +55,7 @@ class UsersController extends RestController {
 
     /**
      * 插入用户
+     * $id是数组，需要foreach
      */
     public function add($id) {
 
@@ -65,6 +67,7 @@ class UsersController extends RestController {
 
     /**
      * 更新用户信息
+     * $id是数组，需要foreach
      */
     public function update($id) {
 
@@ -77,6 +80,7 @@ class UsersController extends RestController {
 
     /**
      * 删除用户信息
+     * $id是数组，需要foreach
      */
     public function delete($id) {
 
