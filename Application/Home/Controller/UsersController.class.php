@@ -12,11 +12,11 @@ class UsersController extends RestController {
 
         if(I('method_type')==='get') {
             // 跳转到获取信息方法
-            $this->get(I(),$id_array);
+            $this->get($id_array);
         }
         if(I('method_type')==='delete') {
             // 跳转到删除方法
-            $this->delete(I(),$id_array);
+            $this->delete($id_array);
         }
     }
 
@@ -29,50 +29,61 @@ class UsersController extends RestController {
 
         if(I('method_type')==='post') {
             // 跳转到新增方法
-            $this->add(I(),$id_array);
+            $this->add($id_array);
         }
         if(I('method_type')==='put') {
             // 跳转到更新方法
-            $this->update(I(),$id_array);
+            $this->update($id_array);
         }
     }
 
     /**
-     * 增加记录
+     * 列举用户
      */
-    public function add($I,$id) {
-        // 操作id
-        // 操作内容
-        echo I('method_type');
-        exit;
+    public function get($id) {
+
+        if (!$id) {
+            // TODO 列举所有用户
+
+        } else {
+            // TODO 列举指定id用户信息
+
+        }
+        echo I('method_type');exit;
     }
 
     /**
-     * 更新记录
+     * 插入用户
      */
-    public function update($I,$id) {
-        // 操作内容
-        var_dump($id) ;exit;
-        echo I('method_type');
-        exit;
+    public function add($id) {
+
+        if (!$id) {
+            // TODO 插入新用户
+        }
+        echo I('method_type');exit;
     }
 
     /**
-     * 读取记录
+     * 更新用户信息
      */
-    public function get($I,$id) {
-        // 操作内容
-        echo I('method_type');
-        exit;
+    public function update($id) {
+
+        if ($id) {
+            // TODO 更新指定id用户信息
+
+        }
+        echo I('method_type');exit;
     }
 
     /**
-     * 删除记录
+     * 删除用户信息
      */
-    public function delete($I,$id) {
-        // 操作内容
-        echo I('method_type');
-        exit;
+    public function delete($id) {
+
+        if ($id) {
+            // TODO 删除指定id用户信息
+        }
+        echo I('method_type');exit;
     }
 
 
